@@ -5,7 +5,9 @@ import "./TravelPlan.css"
 const TravelPlan = () => {
     return (
         <>
-            <TravelPlanCard apartments={travelPlansData} />
+            <div className="container">
+                <TravelPlanCard apartments={travelPlansData} />
+            </div>
         </>
     )
 };
